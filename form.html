@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form">
+			<h2>DATA MAHASISWA</h2>
+				<form method="post" action="simpan.php">
+				<input type="text" name="nama" class="nama" autocomplete="off" placeholder="Masukkan Nama"><br>
+				<input type="text" name="nim" class="nim" autocomplete="off" placeholder="Masukkan NIM"><br>
+				<select class="prodi" name="prodi">
+					<option value="industri">Teknik Industri</option>
+					<option value="kimia">Teknik Kimia</option>
+					<option value="sipil">Teknik Sipil</option>
+					<option value="informatika">Teknik Informatika</option>
+				</select><br>
+				<input class="simpan" type="submit" value="simpan"><br>
+			</form>
+			<a href="index.html">Back</a>
+		</div>
+	</div>
+</body>
+</html>
